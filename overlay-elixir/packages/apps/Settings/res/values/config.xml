@@ -18,7 +18,7 @@
          2 = left side
          3 = right side
     -->
-    <integer name="config_fingerprintSensorLocation">3</integer>
+    <integer name="config_fingerprintSensorLocation">0</integer>
 
     <!-- Battery health -->
     <bool name="config_supportBatteryHealth">true</bool>
