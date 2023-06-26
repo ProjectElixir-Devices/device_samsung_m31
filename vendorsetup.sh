@@ -9,7 +9,7 @@ rm -rf device/samsung/universal9611-common
 git clone https://github.com/ProjectElixir-Devices/device_samsung_universal9611-common device/samsung/universal9611-common --depth 1
 
 # Vendor blobs for M31s
-rm -rf vendor/samsung/m31s
+rm -rf vendor/samsung/m31
 git clone https://github.com/Exynos9611-Development/vendor_samsung_m31 vendor/samsung/m31 --depth 1
 
 # Some additional interfaces
