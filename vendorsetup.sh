@@ -21,8 +21,10 @@ rm -rf vendor/samsung/universal9611-common
 git clone https://github.com/Exynos9611-Development/vendor_samsung_universal9611-common vendor/samsung/universal9611-common --depth 1
 
 # Hardware OSS parts for Samsung
+mv hardware/samsung/nfc .
 rm -rf hardware/samsung
 git clone https://github.com/ProjectElixir-Devices/hardware_samsung hardware/samsung --depth 1 -b thirteen
+mv nfc hardware/samsung
 
 # SLSI Sepolicy
 rm -rf device/samsung_slsi/sepolicy
