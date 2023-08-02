@@ -2,7 +2,7 @@
 
 # Kernel for Universal9611-common
 rm -rf kernel/samsung/universal9611
-git clone https://github.com/Exynos9611-Development/kernel_samsung_universal9611 kernel/samsung/universal9611 --depth 1 --single-branch
+git clone https://github.com/ProjectElixir-Devices/kernel_samsung_universal9611 kernel/samsung/universal9611 --depth 1 --single-branch
 
 # Common tree for Universal9611-common
 rm -rf device/samsung/universal9611-common
